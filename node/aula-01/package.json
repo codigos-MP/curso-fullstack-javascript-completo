@@ -1,0 +1,14 @@
+{
+  "name": "aula-01",
+  "version": "1.0.0",
+  "description": "aula-01",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anderson Adolfo",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
