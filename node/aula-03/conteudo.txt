@@ -1,0 +1,29 @@
+
+$ npm install <nome-pacote> : Instalar pacotes
+$ npm install <nome-pacote> -E : Instalar pacotes em versões mais atuais e específicas
+$ npm install <nome-pacote>@<version> : Instalar pacotes em versões específicas
+$ npm install <nome-pacote> --save-dev : Instalar pacotes em dev-dependeces 'Dependencia de desenvolvimento'
+$ npm install <nome-pacote> --save-prod : Instalar pacotes em dependeces 'Dependencia de produção'
+
+$ npm unistall <nome-pacote> : Desistalando pacote
+
+$ npm ls : Listando os pacotes 
+$ npm ls --depth=0 : listando os pacotes que foram instalados | 0 :> profundidade
+
+$ npm outdated : lista pacotes desatualizados
+
+$ npm update : Atualiza os pacotes
+
+--------- Entendendo versões ----------
+
+^ : atualiza -> minor | patch 
+~ : atualiza -> patch
+
+express@2.1.0
+
+2       1       0
+major   minor   patch
+
+2.1.1 -> correção de bug
+2.2.1 -> atualização porém não provocou nenhuma quebra com a versão major tudo que tinha antes funciona normalmente
+3.0.0 -> atualização porém há quebra com as versões anteriores

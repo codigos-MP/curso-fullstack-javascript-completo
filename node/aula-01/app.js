@@ -1,5 +1,5 @@
 const axios = require('axios');
-const { People } = require('./mod1');
+const { People } = require('./mod');
 
 const people = new People('Anderson');
 
@@ -15,19 +15,19 @@ Example #1
 
 ------- Formas diversas de se fazer um require('') --------
 
-const mod1 = require('./mod1');
+const mod1 = require('./mod');
 
-const tellName = mod1.tellName;
+const tellName = mod.tellName;
 console.log(tellName());
 
 ------------
 
-const tellName = require('./mod1').tellName;
+const tellName = require('./mod').tellName;
 console.log(tellName());
 
 ------------
 
-const { name, surname, tellName } = require('./mod1');
+const { name, surname, tellName } = require('./mod');
 console.log(name, surname, tellName());
 
 */
